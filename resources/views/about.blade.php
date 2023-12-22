@@ -65,7 +65,7 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.flat-call-back -->
-
+{{--
     <section class="flat-team">
         <div class="container">
             <div class="row">
@@ -200,4 +200,6 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.flat-testimonial -->
+
+    --}}
 @endsection
