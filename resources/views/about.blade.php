@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="wrap-recent-text">
-                        <h2 class="title">@lang('public.about_us')</h2>
+                        <h2 class="title">{{--@lang('public.about_us')--}}@lang('public.company_profile')</h2>
                         <div class="content-text">
                           {{--<p>@lang('public.about_description-1')</p>
                             <p>@lang('public.about_description-2')</p>--}}
