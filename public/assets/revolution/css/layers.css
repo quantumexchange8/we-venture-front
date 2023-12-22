@@ -5841,7 +5841,8 @@ tp-caption.Team-Thumb,
 	border-radius: 3px;
 	font-weight: 700;
 	padding: 0 37px;
-	background-color: #FFA168;
+	background-color: #00052D;
+    border: 2px solid #00052D;
 	font-family: "Montserrat", sans-serif;
 	-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
@@ -5852,14 +5853,17 @@ tp-caption.Team-Thumb,
 
 .tp-caption.flat-button-slider.bg-white {
 	background-color: #fff;
-	color: #696057;
+	color:  #00052D;
 	padding: 0 41px 0 41px;
+    border: 2px solid white;
 }
 
 .tp-caption.flat-button-slider.bg-white:hover,
 .tp-caption.flat-button-slider:hover {
-	background-color: #696057;
-	color: #fff;
+    border:1px solid white;
+    background-color: rgba(18, 48, 83, 0);;
+    color: #ffffff;
+  
 }
 
 #banner-slide .tparrows {

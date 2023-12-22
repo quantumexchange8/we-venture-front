@@ -159,7 +159,7 @@
 }
 
 .form-support .btn-contact-form button:hover {
-    color: #FFA168;
+    color: #00052d;
 }
 
 /* Flat Address Box
@@ -245,25 +245,32 @@
 }
 
 .form-contact-form .btn-contact-form button:hover {
-    color: #FFA168;
+    color: #00052d;
+    background-color: transparent;
+
+}
+.form-contact-form .btn-contact-form button{
+   background-color: #00052d;
+   border: 1px solid #00052d;
+   color:white;
 }
 
 .read-more {
     font-size: 14px;
     color: #fff;
-    background-color: #FFA168;
+    background-color: #00052d;
     line-height: 42px;
     height: 46px;
     padding: 0 38px;
     font-weight: 500;
     display: inline-block;
     border-radius: 2px;
-    border: 2px solid #FFA168;
+    border: 2px solid #00052d;
 }
 
 .read-more:hover {
     background-color: transparent;
-    color: #FFA168;
+    color: #00052d;
 }
 
 /* Flat Recent Market
@@ -275,6 +282,7 @@
 .wrap-recent-text {
     padding-right: 60px;
     padding-left: 20px;
+
 }
 
 .wrap-recent-text .title {
@@ -313,13 +321,13 @@
     color: #fff;
     font-size: 16px;
     padding: 14px 0;
-    background-color: #696057;
+    background-color: #00052d;
     padding-left: 70px;
 }
 
 .table-price table tr td {
     font-size: 16px;
-    color: #696057;
+    color: #00052d;
     padding: 16px 0 16px 70px;
 }
 
@@ -499,7 +507,7 @@
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: rgba(105, 96, 87, 0.8);
+    background-color:#00052d;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.3s ease-in-out;
@@ -528,7 +536,7 @@
 }
 
 .team-member .team-image .team-desc .list-info li i {
-    color: #FFA168;
+    color: white;
     margin-right: 10px;
 }
 
@@ -541,6 +549,10 @@
 .team-member .team-info .name a:not(:hover) {
     color: #181818;
 }
+.team-member .team-info .name a:hover {
+    color: #14207c;
+}
+
 
 .team-member .team-info .social {
     margin-top: 26px;
@@ -575,7 +587,7 @@
 }
 
 .team-member.style1:hover {
-    border-color: #FFA168;
+    border-color: #00052d;
 }
 
 .team-member.style1 .team-image {
@@ -599,7 +611,7 @@
 -------------------------------------------------------------- */
 .flat-call-back {
     padding: 45px 0 41px;
-    background-color: #FFA168;
+    background-color: #00052D;
 }
 
 .wrap-call-back .title {
@@ -620,6 +632,12 @@
     letter-spacing: -0.15px;
 }
 
+.wrap-call-back .title p a{
+    color: #cfcfcf;
+}
+.wrap-call-back .title p a:hover{
+    color: white;
+}
 .wrap-call-back .btn-call-back {
     float: right;
     margin-top: 24px;
@@ -631,14 +649,16 @@
     line-height: 46px;
     padding: 0 34px;
     border-radius: 3px;
-    color: #696057;
+    color: #191d42;
     background-color: #fff;
+    border: 2px solid white;
     font-weight: 500;
 }
 
 .btn-call-back a:hover {
-    background-color: #696057;
-    color: #fff;
+ 
+    background-color: transparent;
+    color:white;
 }
 
 /* Wrap Call Back Style1 */
@@ -697,7 +717,7 @@
     width: 100%;
     height: 100%;
     background: url(../images/parallax/bg-work.jpg) center center;
-    opacity: 0.3;
+    opacity: 0.01;
     z-index: -1;
 }
 
@@ -708,7 +728,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 2, 15, 1);
+    background-color: #00052d;
     z-index: -1;
 }
 
@@ -752,8 +772,10 @@
     margin-bottom: 11px;
 }
 
+
+
 .iconbox.style1 .iconbox-content h4 a {
-    color: #FFA168;
+    color: white;
 }
 
 /* Flat Our Work
@@ -781,16 +803,15 @@
     line-height: 100px;
     margin-right: 32px;
     text-align: center;
-    background-color: #FFA168;
+    background-color: #383f72;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
 }
-
 .iconbox.style4:hover .icon {
-    background-color: #696057;
+    background-color: #5e607a;
 }
 
 .iconbox.style4 .number {
@@ -799,7 +820,7 @@
     font-weight: bold;
     top: 0px;
     left: -27px;
-    color: #181818;
+    color: #1d1414;
     opacity: 0.10;
 }
 
@@ -858,7 +879,7 @@
     width: 70px;
     text-align: center;
     line-height: 70px;
-    background-color: #FFA168;
+    background-color: #00052d;
     border-radius: 50%;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -876,6 +897,12 @@
     font-weight: 600;
     color: #181818;
 }
+.iconbox.style2 .iconbox-content p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
 
 .iconbox.inline-left .iconbox-content,
 .iconbox.inline-right .iconbox-content {
@@ -958,7 +985,7 @@
 }
 
 .price-wrapper:hover {
-    border: 1px solid #FFA168;
+    border: 1px solid #00052d;
 }
 
 .price-wrapper .price-header {
@@ -967,7 +994,7 @@
 }
 
 .price-wrapper .price-header .title {
-    color: #FFA168;
+    color: #00052d;
     margin-bottom: 20px;
 }
 
@@ -1020,6 +1047,7 @@
     position: relative;
     padding-bottom: 118px;
 }
+
 
 .testimonials {
     padding: 0 65px;
@@ -1106,7 +1134,7 @@ article.main-post.news .entry-content .meta-left li {
     font-weight: 500;
     text-align: center;
     margin-bottom: 24px;
-    opacity: 0.2;
+    opacity: 0.5;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -1115,8 +1143,8 @@ article.main-post.news .entry-content .meta-left li {
 }
 
 .iconbox.style5:hover .number {
-    opacity: 0.6;
-    color: #FFA168;
+    opacity: 0.8;
+    color: #00052d;
 }
 
 .iconbox .iconbox-content h4 a {
@@ -1495,6 +1523,8 @@ article.main-post.news .entry-content .meta-left li {
 
 /* Flat Testimonial Style1
 -------------------------------------------------------------- */
+
+
 .flat-testimonial.style1 {
     padding: 69px 0 63px;
 }
@@ -1715,6 +1745,12 @@ article.main-post.news .entry-content .meta-left li {
     padding: 100px 0 102px;
 }
 
+
+.contact-form-name input:focus,
+.contact-form-email input:focus,
+.contact-form-comment textarea:focus {
+    border-color: #00052d !important;
+}
 
 
 

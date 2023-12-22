@@ -43,7 +43,7 @@
                         </div><!-- /.team-member -->
                         <div class="team-info d-flex flex-column">
                             <div class="name">
-                                <a href="#" style="color: #FFA168" title="">@lang('public.professional_team')</a>
+                                <a href="#" style="color: #000c66" title="">@lang('public.professional_team')</a>
                             </div>
                             <p>
                                 @lang('public.portfolio_description-1')
@@ -58,7 +58,7 @@
                         </div><!-- /.team-member -->
                         <div class="team-info d-flex flex-column">
                             <div class="name">
-                                <a href="#" style="color: #FFA168" title="">@lang('public.multi_asset_investing')</a>
+                                <a href="#" style="color:  #000c66" title="">@lang('public.multi_asset_investing')</a>
                             </div>
                             <p>
                                 @lang('public.portfolio_description-2')
@@ -73,7 +73,7 @@
                         </div><!-- /.team-member -->
                         <div class="team-info d-flex flex-column">
                             <div class="name">
-                                <a href="#" style="color: #FFA168" title="">@lang('public.client_driven_exp')</a>
+                                <a href="#" style="color:  #000c66" title="">@lang('public.client_driven_exp')</a>
                             </div>
                             <p>
                                 @lang('public.portfolio_description-3')
@@ -284,7 +284,7 @@
                     <div class="wrap-call-back">
                         <div class="title">
                             <h2>@lang('public.consultant')</h2>
-                            <p>@lang('public.consultant_caption-1') <a href="mailto:support@clarkwell.co" class="text-gray-dark">support@clarkwell.co</a> @lang('public.consultant_caption-2').</p>
+                            <p>@lang('public.consultant_caption-1') <a href="mailto:@lang('public.email_weventure')" class="text-light">@lang('public.email_weventure')</a> @lang('public.consultant_caption-2').</p>
                         </div>
                         <div class="btn-call-back">
                             <a href="{{ route('contact') }}" title="">@lang('public.contact_us')</a>

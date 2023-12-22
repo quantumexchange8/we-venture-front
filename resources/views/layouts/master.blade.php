@@ -6,7 +6,7 @@
     <!-- Basic Page Needs -->
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>@yield('title') | @lang('public.clarkwell')</title>
+    <title>@yield('title') | {{--@lang('public.clarkwell')--}} We Venture</title>
 
     <meta name="author" content="themsflat.com">
 
@@ -30,8 +30,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/stylesheet/responsive.css') }}">
 
     <!-- Favicon and touch icons  -->
-    <link rel="apple-touch-icon" href="{{ asset('img/CW-apple-icon.jpg') }}">
-    <link href="{{ asset('assets/icon/favicon.png') }}" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="{{ asset('img/WV-apple-icon-01.jpg') }}">
+    <link href="{{ asset('assets/icon/wv icon-01.png') }}" rel="shortcut icon">
 
 </head>
 <body>

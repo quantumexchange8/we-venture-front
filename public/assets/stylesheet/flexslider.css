@@ -236,11 +236,11 @@ html[xmlns] .flexslider .slides {
   transition: all 0.3s ease;
 }
 .flex-control-thumbs img:hover {
-    border: 2px solid #ffa168;
+    border: 2px solid #000c64;
     width: 80px;
 }
 .flex-control-thumbs .flex-active {
-  border: 2px solid #ffa168;
+  border: 2px solid #00052d;
   width: 80px;
   cursor: default;
 }

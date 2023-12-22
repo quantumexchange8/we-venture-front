@@ -429,7 +429,7 @@ input[type="color"],
     font-weight: 800;
     opacity: 1;
     text-align: center;
-    background: linear-gradient(-45deg, #f89b29 0%, #ffa168 100% );
+    background: linear-gradient(-45deg, #00052d 0%, #4c506c 100% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -448,7 +448,7 @@ input[type="color"],
     justify-content: center;
     text-align: center;
     gap: 10px;
-    background: linear-gradient(-45deg, #f89b29 0%, rgba(255, 161, 104, 0.68) 100% );
+    background: linear-gradient(-45deg, #00052d 0%, rgb(95, 97, 117) 100% );
     color: #ffffff;
     padding: 20px;
     line-height: 1.5;
@@ -596,7 +596,7 @@ h5 { font-size: 14px;}
 	font-size: 12px;
 	line-height: 30px;
 	padding-left: 20px;
-	color: #FFA168;
+	color: white;
 }
 
 .flat-infomation li {
@@ -610,7 +610,7 @@ h5 { font-size: 14px;}
 
 .box-account li a:hover,
 .flat-infomation li a:hover {
-	color: #FFA168;
+	color: #cccdd5;
 }
 
 .flat-infomation li:before,
@@ -786,7 +786,7 @@ ul.box-account li.sign-in:before {
 	line-height: 80px;
 	display: block;
 	padding: 0 20px;
-	color: #000002;
+	color: #00052d;
 	font-weight: 600;
 	text-transform: uppercase;
 	position: relative;
@@ -794,7 +794,8 @@ ul.box-account li.sign-in:before {
 
 #mainnav .menu > li.active > a,
 #mainnav .menu > li > a:hover {
-	color: #FFA168;
+	color:rgb(141, 140, 140);
+	
 }
 
 #mainnav .menu > li:last-child a {
@@ -860,7 +861,7 @@ ul.box-account li.sign-in:before {
 	font-family: 'fontawesome';
 	top: 0;
 	left: -10px;
-	color: #FFA168;
+	color: #7f8296;
 	opacity: 0;
 	-webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
@@ -877,7 +878,7 @@ ul.box-account li.sign-in:before {
 
 #mainnav .menu > li > .sub-menu > li.active > a,
 #mainnav .menu > li > .sub-menu > li > a:hover {
-	color: #FFA168;
+	color: #00052d;
 	padding-left: 15px;
 }
 
@@ -1168,7 +1169,7 @@ ul.box-account li.sign-in:before {
 }
 
 .footer-widgets .widget .widget-title {
-	color: #FFA168;
+	color: #00052d;
 	font-weight: 600;
 	margin-bottom: 16px;
 }
@@ -1236,6 +1237,10 @@ ul.box-account li.sign-in:before {
 .widget_nav_menu .menu-footer li a:not(:hover) {
 	color: #c0c0c0;
 }
+.widget_nav_menu .menu-footer li a:hover {
+	color: #191d42;
+}
+
 
 /* Widget Contact */
 .widget_contact {
@@ -1251,6 +1256,10 @@ ul.box-account li.sign-in:before {
 	line-height: 24px;
 	margin-bottom: 6px;
 }
+.widget_contact .contact-list li a:hover {
+color:#00052d;
+}
+
 
 .widget_contact .contact-list li span {
 	color: #fff;
@@ -1282,8 +1291,8 @@ ul.box-account li.sign-in:before {
 }
 
 .widget_themesflat_socials .themesflat-shortcode-socials li a:hover {
-	background-color: #FFA168;
-	border-color: #FFA168;
+	background-color:#00052d;
+	border-color: #00052d;
 }
 
 /* Footer Bottom */
@@ -1313,7 +1322,7 @@ ul.box-account li.sign-in:before {
 }
 
 .footer-bottom .copyright a:hover {
-	color: #FFA168;
+	color: #00052d;
 }
 
 .menu-ft-bottom {
@@ -1330,6 +1339,11 @@ ul.box-account li.sign-in:before {
 .menu-ft-bottom li a:not(:hover) {
 	color: #696057;
 }
+
+.menu-ft-bottom li a:hover {
+	color: #00052d;
+}
+
 
 /* BLog
 -------------------------------------------------------------- */
@@ -1379,7 +1393,7 @@ article.main-post .entry-content .date {
 	line-height: 25px;
 	padding: 0 14px;
 	border-radius: 2px;
-	background-color: #FFA168;
+	background-color: #00052d;
 	color: #fff;
 	font-size: 12px;
 	display: inline-block;
@@ -1392,6 +1406,10 @@ article.main-post .entry-content .date {
 
 article.main-post:hover .entry-content .date {
 	background-color: #252525;
+}
+
+article.main-post:hover .entry-content h2 a:hover {
+	color: #363f81;
 }
 
 article.main-post .entry-content h2 {
@@ -1423,7 +1441,7 @@ article.main-post .meta-left li:last-child {
 }
 
 article.main-post .meta-left li i {
-	color: #FFA168;
+	color: #00052d;
 	padding-right: 5px;
 }
 
@@ -1861,7 +1879,8 @@ article.main-single .direction .widget_tag_cloud {
          -o-border-radius: 50%;
     		border-radius: 50%;
    	cursor: pointer;
-    background-color: #FFA168;
+    background-color: #00052d;
+	border:1px solid #00052d;
     box-shadow: 1px 1px 8px 0px rgba(105, 96, 87, 0.2);
    	line-height: 40px;
    	text-align: center;
@@ -1880,7 +1899,7 @@ article.main-single .direction .widget_tag_cloud {
 }
 
 .go-top:hover {
-    background-color: #696057;
+    background-color: #323656;
 }
 
 /* Switcher
@@ -2277,7 +2296,7 @@ article.main-single .direction .widget_tag_cloud {
     -webkit-animation: preloader-wave 1.6s linear infinite;
         animation: preloader-wave 1.6s linear infinite;
     border-radius: 50%;
-    background: #FFA168;
+    background: #00052d;
 }
 
 .loader:after {

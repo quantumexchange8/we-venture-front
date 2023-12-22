@@ -19,7 +19,6 @@ return array(
     'performance' => 'Performance',
     'merge_signal_strategy' => 'Merge Signal Strategy',
     'grand_pacific_strategy' => 'Grand Pacific Strategy',
-
     'consultant' => 'Do you need a consultant?',
     'consultant_caption-1' => 'Please do not hesitate to contact us at',
     'consultant_caption-2' => 'or fill up the contact form.',
@@ -112,5 +111,34 @@ return array(
     'your_message' => 'Your Message',
     'send_message' => 'Send Message',
     'send_success' => 'Contact Form Sent Successfully',
-)
+
+
+// New Content
+    'cultivating_intelligent_strategies'=>"Cultivating Intelligent Strategies, We're Dedicated to Maximizing Your Investment Profits",
+    'company_profile_description1'=>"We Venture is one of the world's largest providers of financial market data and infrastructure. Our journey in technological research and development began in 2020, focusing on advancing the forefront of trading technology and artificial intelligence fields. We Venture is committed to supporting global financial market participants by providing information, insights, and AI (Artificial Intelligence) technology, empowering clients to make confident decisions in critical investments, trades, and risk management.",
+    'company_profile_description2'=>'Customers lie at the core of everything we do. This drives us to deliver outstanding performance, exceptional services, and multi-layered risk management. As an intelligent advisory firm, we believe our ownership structure fosters long-term perspectives that align our views with those of our clients.',
+    'company_profile_description3'=>'We believe in offering a diverse range of innovative, high-performance investment options that enable every investor to realize their full potential. AI (Artificial Intelligence) technology stands as an indispensable trading tool for qualified investors.',
+    'company_profile_description4'=>'Our vision is to enhance the openness, connectivity, and efficiency of global financial markets. With partnership and open access as core principles, we provide clients with more choices, better opportunities, navigate complex scenarios, and achieve effective expansion. We understand that by creating opportunities for our clients, we drive progress across the entire financial landscape.',
+    'product_information'=>'Product Information',
+    'AI_strategy_product'=>'AI (Artificial Intelligence) Strategy Products',
+    'neurotrade'=>'NeuroTrade We-AI',
+    'genius_invest'=>'GeniusInvest We-AI',
+    'quantum'=>'QuantumEdge We-Trader',
+    'neurotrade_description'=>"NeuroTrade We-AI, a groundbreaking AI trading partner. We harness cutting-edge neural network technology to analyze market data, predict trends, and offer robust trading recommendations. Our machine learning algorithms continuously optimize trading strategies tailored for individuals with some market experience. Whether it's trending or oscillating markets, our strategies ensure capturing the best trading opportunities in dynamic market conditions.",
+    'genius_invest_description'=>"It is a robot based on advanced algorithms and big data analysis, focusing on financial market transactions. GeniusInvest We-AI can monitor market dynamics in real-time and make trading decisions based on data models. It possesses self-learning capabilities, continuously optimizing trading strategies to adapt to various market conditions and fluctuations. Our robot assists in achieving investment success through efficient and precise trading strategies.",
+    'quantum_description'=>"QuantumEdge We-Trader is based on quantum computing theory and AI technology. This intelligent trading assistant maximizes the advantages of quantum computing, achieving unparalleled data processing capabilities. It processes large volumes of market data in real-time, enabling rapid analysis and predictive modeling. Our robot executes trading strategies with high adaptability and precision, providing you with leading market insights and efficient execution, granting you an advantage in fiercely competitive markets.",
+    'advantage_AI_title'=>'Advantages of AI (Artificial Intelligence)',
+    'advantage_AI_description'=>'The AI trading platform team has amassed years of practical experience and offers an intelligent service platform providing the most comprehensive trading strategies and management tools for individuals and teams engaged in trading financial derivatives. The AI trading platform is applicable across various financial products like forex, futures, indices, catering to individual investors, institutional investors, and market operators. Our strategy platform ensures timely products and services, including: Forex intelligent trading systems, Forex automatic copying systems, Forex intelligent hedging systems, versatile market converters, Forex trading signal experts, Forex intelligent trading servers, and various auxiliary tools.',
+    'email_weventure'=>'infocentre.weventure@gmail.com',
+    'intro_text1'=>"In today's investment and financial landscape, technology and data have become crucial elements. Therefore, we continuously optimize our trading strategies based on the latest trends and solutions. Our goal is to ensure that we become one of the most reliable and powerful intelligent trading applications in the market.",
+    'intro_text2'=>"Our 360-degree trading strategy aims to ensure you never miss any profitable trading opportunities. Whether it's stocks, forex, cryptocurrencies, or commodities trading, we provide comprehensive investment advice. Our professional team customizes personalized trading plans tailored to your risk tolerance, investment objectives, and time-frame to ensure optimal results for your investments.",
+    'intro_text3'=>"By combining state-of-the-art technology and comprehensive data analysis, we offer accurate market forecasts and the best investment timing to help you maximize profits while reducing risks. Partnering with us means you'll receive comprehensive support and highly tailored services, enabling you to achieve more significant and stable results in the investment field. We consistently deliver the highest quality trading experience in a comprehensive, reliable, and innovative manner.",
+    'multifunctional_trading'=>"Multifunctionality of Trading Assistant",
+    'multifunctional_trading_text'=>"An all-in-one trading software with AI (Artificial Intelligence) that immediately enhances your trading abilities. ",
+    'data_science'=>'Data Science Analysis',
+    'data_science_text'=>' Utilizing appropriate statistical methods to deeply analyze vast amounts of collected trading data. We are dedicated to synthesizing, understanding, and digesting this data to maximize its potential and functionality.',
+    'customer_experience'=>'Comprehensive Customer Experience Services',
+    'customer_experience_text'=>'We are committed to assisting customers in becoming superior investors. Our experienced customer support team is available 24/5, five days a week, aiming to provide continuous support and assistance to you.',
+    'we-venture'=>'We Venture',
+    )
 ?>

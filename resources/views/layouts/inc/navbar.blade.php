@@ -4,7 +4,7 @@
             <div class="header-wrap">
                 <div id="logo" class="logo">
                     <a href="{{ route('index') }}" title="">
-                        <img src="{{ asset('assets/images/CW2-new.png') }}" alt="logo Clark Well" />
+                        <img src="{{ asset('assets/images/logo-01.png') }}" alt="logo We Venture" />
                     </a>
                 </div><!-- /#logo -->
 
@@ -30,20 +30,35 @@
                                     <li class="{{ request()->is('insight/portfolio') ? 'active' : '' }}"><a href="{{ route('portfolio') }}" title="">@lang('public.portfolio')</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
+                            {{--
                             <li class="{{ request()->is('performance/*') ? 'active' : '' }}">
                                 <a href="{{ route('merge_signal_strategy') }}" title="">@lang('public.performance')</a>
                                 <ul class="sub-menu">
                                     <li class="{{ request()->is('performance/merge_signal_strategy') ? 'active' : '' }}"><a href="{{ route('merge_signal_strategy') }}" title="">@lang('public.merge_signal_strategy')</a></li>
                                     <li class="{{ request()->is('performance/grand_pacific_strategy') ? 'active' : '' }}"><a href="{{ route('grand_pacific_strategy') }}" title="">@lang('public.grand_pacific_strategy')</a></li>
-                                </ul><!-- /.sub-menu -->
+                                </ul> 
+                                 <!-- /.sub-menu -->
+                           
+                            </li> 
+                            --}}
+                            <li class="{{ request()->is('resource/*') ? 'active' : '' }}">
+                                <a href="{{ route('news') }}" title="">@lang('public.news')</a>
+                                {{--<ul class="sub-menu">
+                                     <li class="{{ request()->is('news/faqs') ? 'active' : '' }}"><a href="{{ route('faqs') }}" title="">@lang('public.faqs')</a></li> 
+                                    <li class="{{ request()->is('news/news') ? 'active' : '' }}"><a href="{{ route('news') }}" title="">@lang('public.news')</a></li>
+                                </ul>--}}<!-- /.sub-menu -->
                             </li>
+
+
+                            {{--
                             <li class="{{ request()->is('resource/*') ? 'active' : '' }}">
                                 <a href="{{ route('faqs') }}" title="">@lang('public.resources')</a>
                                 <ul class="sub-menu">
                                     <li class="{{ request()->is('resource/faqs') ? 'active' : '' }}"><a href="{{ route('faqs') }}" title="">@lang('public.faqs')</a></li>
                                     <li class="{{ request()->is('resource/news') ? 'active' : '' }}"><a href="{{ route('news') }}" title="">@lang('public.news')</a></li>
-                                </ul><!-- /.sub-menu -->
+                                </ul>
                             </li>
+                            --}}
                             <li class="{{ request()->is('contact') ? 'active' : '' }}">
                                 <a href="{{ route('contact') }}" title="">@lang('public.contact')</a>
                             </li>

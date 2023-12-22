@@ -8,10 +8,10 @@
                             <div class="widget-text">
                                 <div id="logo-ft">
                                     <a href="{{ route('index') }}" title="">
-                                        <img src="{{ asset('assets/images/CW2-new.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/logo-01.png') }}" alt="">
                                     </a>
                                 </div>
-                                <p class="text-gray-dark">Clark Well Capital: Expert asset management for exceptional returns and minimized risk.</p>
+                                <p class="text-gray-dark"><!--Clark Well Capital: Expert asset management for exceptional returns and minimized risk.-->We Venture: Cultivating Intelligent Strategies, We're Dedicated to Maximizing Your Investment Profits</p>
                             </div>
                         </div><!-- /.widget-about -->
                     </div><!-- /.col-md-4 -->
@@ -24,7 +24,7 @@
                                 <li><a href="{{ route('core_value') }}" title=""><i class="fa fa-angle-double-right"></i> Core Value</a></li>
                             </ul><!-- /.one-half -->
                             <ul class="menu-footer one-half">
-                                <li><a href="{{ route('faqs') }}" title=""><i class="fa fa-angle-double-right"></i> FAQ</a></li>
+                              {{--  <li><a href="{{ route('faqs') }}" title=""><i class="fa fa-angle-double-right"></i> FAQ</a></li>--}}
                                 <li><a href="{{ route('news') }}" title=""><i class="fa fa-angle-double-right"></i> News</a></li>
                                 <li><a href="{{ route('portfolio') }}" title=""><i class="fa fa-angle-double-right"></i> Portfolio</a></li>
                             </ul><!-- /.one-half -->
@@ -39,7 +39,7 @@
                                     Location: <span class="text-gray-dark">Hong Kong office, China office, Malaysia Office, Thailand office</span>
                                 </li>
                                 <li>
-                                    Email: <span class="text-gray-dark"><a href="mailto:support@clarkwell.co">support@clarkwell.co</a></span>
+                                    Email: <span class="text-gray-dark"><!--<a href="mailto:support@clarkwell.co">support@clarkwell.co</a>--><a href="mailto:infocentre.weventure@gmail.com ">infocentre.weventure@gmail.com </a></span>
                                 </li>
                             </ul>
                         </div><!-- /.widget_contact -->
@@ -65,15 +65,16 @@
                         <li>
                             <a href="{{ route('core_value') }}" title="">@lang('public.insights')</a>
                         </li>
-                        <li>
-                            <a href="{{ route('faqs') }}" title="">@lang('public.resources')</a>
+                      <li>
+                            <a href="{{ route('news') }}" title="">@lang('public.news')</a>
                         </li>
                         <li>
                             <a href="{{ route('contact') }}" title="">@lang('public.contact')</a>
                         </li>
                     </ul>
                     <div class="copyright">
-                        <p>© Copyright <a href="https://clarkwell.co/" target="_blank">Clark Well</a> {{ now()->year }}</p>
+                        {{--<p>© Copyright <a href="https://clarkwell.co/" target="_blank">Clark Well</a> {{ now()->year }}</p>--}}
+                        <p>© Copyright <a href="#" target="_blank">We Venture</a> {{ now()->year }}</p>
                     </div>
                 </div>
             </div>

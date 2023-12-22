@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title') @lang('public.faqs') @endsection
+@section('title') @lang('public.news') @endsection
 
 @section('content')
     <div class="page-title">
@@ -14,7 +14,7 @@
                         <ul class="breadcrumbs">
                             <li><a href="#" title="">@lang('public.home')</a></li>
                             <li class="dot">/</li>
-                            <li>@lang('public.resources')</li>
+                            <li>@lang('public.news')</li>
                         </ul><!-- /.breadcrumbs -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->

@@ -66,7 +66,8 @@
                          data-paddingbottom="[0,0,0,0]"
                          data-paddingleft="[0,0,0,0]"
 
-                         style="z-index: 17; white-space: nowrap;">@lang('public.index_heading_caption')
+                         style="z-index: 17; white-space: nowrap;">@lang('public.cultivating_intelligent_strategies')
+                         {{--@lang('public.index_heading_caption')--}}
                     </div>
 
                     <a href="{{ route('service') }}" target="_self" class="tp-caption flat-button-slider bg-blue text-uppercase"
@@ -188,10 +189,14 @@
                     <div class="wrap-recent-text style3">
                         <h2 class="title">@lang('public.introduction')</h2>
                         <div class="content-text text-justify">
-                            <p>Clark Well Capital is a premier asset management group that specializes in proprietary trading. Our team consists of expert from several financial institutions. We leverage our experience, expertise, and cutting-edge trading technologies to deliver exceptional returns with minimized risk. We are dedicated to providing our clients with top-notch investment management services and exceptional returns on their investments.</p>
+                           <!-- <p>Clark Well Capital is a premier asset management group that specializes in proprietary trading. Our team consists of expert from several financial institutions. We leverage our experience, expertise, and cutting-edge trading technologies to deliver exceptional returns with minimized risk. We are dedicated to providing our clients with top-notch investment management services and exceptional returns on their investments.</p>
                             <p style="text-indent: 40px">With over 10 years of experience in private fund management services and proprietary trading, we have a proven track record of success in delivering consistent returns to our clients. Our team of experts has over 20 years of experience in financial quantitative analytics and trading, giving us a deep understanding of the complexities of the financial markets. We leverage our experience and expertise to identify investment opportunities and navigate market fluctuations to maximize returns while minimizing risk.</p>
                             <p style="text-indent: 40px">We understand that every investor has unique needs and goals, which is why we offer personalized solutions that are tailored to our clients' specific investment objectives. Our mastery of financial markets, combined with our personalized approach, enables us to turn our clients' investment dreams into reality. We are committed to delivering exceptional results and providing our clients with the peace of mind that comes with knowing their investments are in capable hands.</p>
                             <p style="text-indent: 40px">At Clark Well Capital, we believe that success is built on trust, transparency, and accountability. We are dedicated to building long-lasting relationships with our clients based on these core values. Come join us on this exciting journey to investment success and experience the difference that our expertise and personalized solutions can make for your portfolio.</p>
+                           -->
+                            <p>@lang('public.intro_text1')</p>
+                            <p style="text-indent: 40px">@lang('public.intro_text2')</p>
+                            <p style="text-indent: 40px">@lang('public.intro_text3')</p>
                         </div>
                     </div><!-- /.wrap-recent-text style3 -->
                 </div>
@@ -211,14 +216,17 @@
                     <div class="wrap-recent-text">
                         <h2 class="title">@lang('public.about_us')</h2>
                         <div class="content-text">
-                            <p>@lang('public.index_about')</p>
+                           <p>@lang('public.index_about')</p>
+                           
                         </div>
                     </div><!-- /.wrap-recent-text -->
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.flat-recent-market -->
-
+<!--------------------Original Coding Why Clark Well ----------------------------->
+ 
+<!--
     <section class="flat-why-choose style1">
         <div class="container">
             <div class="row">
@@ -227,7 +235,10 @@
                         <h2>Why Clark Well Capital?</h2>
                         <p>Clark Well Capital is an excellent choice for investors seeking exceptional returns on their investments. There are several reasons why you may want to consider partnering with us</p>
                     </div>
-                </div><!-- /.col-md-12 -->
+                </div>
+       
+                
+  
                 <div class="col-md-3 mb-4 d-flex justify-content-center">
                     <div class="card-container">
                         <div class="custom-card">
@@ -241,8 +252,9 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- /.col-md-12 -->
-                <div class="col-md-3 mb-4 d-flex justify-content-center">
+                </div>
+    
+         <div class="col-md-3 mb-4 d-flex justify-content-center">
                     <div class="card-container">
                         <div class="custom-card">
                             <div class="front-content">
@@ -255,7 +267,8 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- /.col-md-12 -->
+                </div>
+           
                 <div class="col-md-3 mb-4 d-flex justify-content-center">
                     <div class="card-container">
                         <div class="custom-card">
@@ -269,7 +282,7 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- /.col-md-12 -->
+                </div>   
                 <div class="col-md-3 mb-4 d-flex justify-content-center">
                     <div class="card-container">
                         <div class="custom-card">
@@ -283,10 +296,68 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- /.col-md-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.flat-why-choose style1 -->
+                </div>
+            </div>          
+        </div>
+    </section>
+-->
+<!--------------------Original Coding Why Clark Well ----------------------------->
+<!---------------------------PASTE Coding------------------------------------------------------>
+<section class="flat-why-choose style1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-title center">
+                    <h2>Why We Venture?</h2>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card-container">
+                    <div class="custom-card">
+                        <div class="front-content">
+                            <p>@lang('public.multifunctional_trading')</p>
+                        </div>
+                        <div class="content">
+                            <p>@lang('public.multifunctional_trading_text') </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- /.col-md-12 -->
+     <div class="col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card-container">
+                    <div class="custom-card">
+                        <div class="front-content">
+                            <p>@lang('public.data_science')</p>
+                        </div>
+                        <div class="content">
+                            <p>@lang('public.data_science_text')</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-12 -->
+       
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card-container">
+                    <div class="custom-card">
+                        <div class="front-content">
+                            <p>@lang('public.customer_experience')</p>
+                        </div>
+                        <div class="content">
+                            <p>@lang('public.customer_experience_text')</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+          
+        </div>          
+    </div>
+</section>
+
+
+<!---------------------------------------------------------------------------------->
 
     <section class="flat-call-back">
         <div class="container">
@@ -295,7 +366,7 @@
                     <div class="wrap-call-back">
                         <div class="title">
                             <h2>@lang('public.consultant')</h2>
-                            <p>@lang('public.consultant_caption-1') <a href="mailto:support@clarkwell.co" class="text-gray-dark">support@clarkwell.co</a> @lang('public.consultant_caption-2').</p>
+                            <p>@lang('public.consultant_caption-1')  <!--<a href="mailto:support@clarkwell.co" class="text-white-50">support@clarkwell.co </a>--><a href="mailto:@lang('public.email_weventure') " class="text-white-50">@lang('public.email_weventure')</a> @lang('public.consultant_caption-2').</p>
                         </div>
                         <div class="btn-call-back">
                             <a href="{{ route('contact') }}" title="">@lang('public.contact_us')</a>

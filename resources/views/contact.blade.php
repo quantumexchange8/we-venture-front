@@ -28,7 +28,8 @@
                 <div class="col-md-12">
                     <div class="top-title center">
                         <h2>@lang('public.contact_with_us')</h2>
-                        <p>@lang('public.contact_us_caption',['email' => 'support@clarkwell.co'])</p>
+                        <p>@lang('public.contact_us_caption',['email' => 'infocentre.weventure@gmail.com '])</p>
+                      {{-- <p>@lang('public.contact_us_caption',['email' => 'support@clarkwell.co'])</p>--}} 
                     </div>
                     @if(Session::has('success'))
                         <div class="alert alert-success">

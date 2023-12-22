@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="flat-infomation">
-                    <li class="email"><a href="mailto:support@clarkwell.co" title="email">@lang('public.email'): support@clarkwell.co</a></li>
+                    <li class="email"><a href="mailto:infocentre.weventure@gmail.com" title="email">@lang('public.email'): infocentre.weventure@gmail.com</a></li>
                     <li class="dropdown">
                         <span type="button" class="text-white dropdown-toggle" data-toggle="dropdown">
                             @if (App::getLocale() === 'en')

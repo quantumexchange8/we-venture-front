@@ -29,8 +29,12 @@
                     <div class="wrap-recent-text">
                         <h2 class="title">@lang('public.about_us')</h2>
                         <div class="content-text">
-                            <p>@lang('public.about_description-1')</p>
-                            <p>@lang('public.about_description-2')</p>
+                          {{--<p>@lang('public.about_description-1')</p>
+                            <p>@lang('public.about_description-2')</p>--}}
+                            <p>@lang('public.company_profile_description1')</p>
+                            <p>@lang('public.company_profile_description2')</p>
+                            <p>@lang('public.company_profile_description3')</p>
+                            <p>@lang('public.company_profile_description4')</p>
                             <a href="#" class="read-more" title="">@lang('public.get_started')</a>
                         </div>
                     </div>
@@ -51,7 +55,7 @@
                     <div class="wrap-call-back">
                         <div class="title">
                             <h2>@lang('public.consultant')</h2>
-                            <p>@lang('public.consultant_caption-1') <a href="mailto:support@clarkwell.co" class="text-gray-dark">support@clarkwell.co</a> @lang('public.consultant_caption-2').</p>
+                            <p>@lang('public.consultant_caption-1') {{--<a href="mailto:support@clarkwell.co" class="text-light">support@clarkwell.co</a>--}}<a href="mailto:@lang('public.email_weventure') " class="text-white-50">@lang('public.email_weventure') </a> @lang('public.consultant_caption-2').</p>
                         </div>
                         <div class="btn-call-back">
                             <a href="{{ route('contact') }}" title="">@lang('public.contact_us')</a>
