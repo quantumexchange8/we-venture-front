@@ -26,10 +26,10 @@
                 </ul><!-- /.flat-infomation -->
                 <ul class="box-account">
                     <li class="login">
-                        <a href="https://www.we-ventures.net/" target="_blank" title="">@lang('public.login')</a>
+                        <a href="https://login.we-ventures.net/welcome" target="_blank" title="">@lang('public.login')</a>
                     </li>
                     <li class="sign-in">
-                        <a href="https://www.we-ventures.net/" target="_blank" title="">@lang('public.signup')</a>
+                        <a href="https://login.we-ventures.net/register" target="_blank" title="">@lang('public.signup')</a>
                     </li>
                 </ul><!-- /.box-account -->
                 <div class="clearfix"></div><!-- /.clearfix -->
