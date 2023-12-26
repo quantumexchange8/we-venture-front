@@ -308,7 +308,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="top-title center">
-                    <h2>Why We Venture?</h2>
+                    <h2>@lang('public.why-weventure')</h2>
                 </div>
             </div>
     

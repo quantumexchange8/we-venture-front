@@ -6,7 +6,7 @@
     <!-- Basic Page Needs -->
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>@yield('title') | {{--@lang('public.clarkwell')--}} We Venture</title>
+    <title>@yield('title') | {{--@lang('public.clarkwell')--}} @lang('public.we-venture')</title>
 
     <meta name="author" content="themsflat.com">
 

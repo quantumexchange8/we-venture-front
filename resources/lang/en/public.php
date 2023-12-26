@@ -141,5 +141,12 @@ return array(
     'customer_experience'=>'Comprehensive Customer Experience Services',
     'customer_experience_text'=>'We are committed to assisting customers in becoming superior investors. Our experienced customer support team is available 24/5, five days a week, aiming to provide continuous support and assistance to you.',
     'we-venture'=>'We Venture',
+    'quick-link'=>'QUICK LINK',
+    'why-weventure'=>'Why Choose We Venture?',
+    'contact'=>'Contact',
+    'location'=>'Location',
+    'exchange_rate'=>'Exchange Rates',
+    'real-time-currency'=>'Real-time currency exchange rates against USD',
+    'news-and-blog'=>'News & Blogs',
     )
 ?>

@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-title-heading">
-                            <h1 class="h1-title">News & Blog</h1>
+                            <h1 class="h1-title">@lang('public.news-and-blog')</h1>
                         </div><!-- /.page-title-heading -->
                         <ul class="breadcrumbs">
                             <li><a href="#" title="">@lang('public.home')</a></li>

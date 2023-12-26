@@ -12,7 +12,7 @@ return array(
     'core_value' => '核心思想',
     'portfolio' => '作品集',
     'contact' => '联系我们',
-
+    'news'=>'新闻',
     'consultant' => '您需要顾问吗？',
     'consultant_caption-1' => '请随时联系我们',
     'consultant_caption-2' => '或填写联系表格。',
@@ -106,7 +106,7 @@ return array(
     
     
     //New content for We Venture
-    'we-venture'=>'维创科技',
+    'we-venture'=>'维创科技', 
     'cultivating_intelligent_strategies'=>'通过智能化策略,我们致力于将您的投资利润最大化',
 
     'intro_text1'=>"在当今投资和金融领域，技术和数据已经成为至关重要的元素。因此，我们持续不断地根据最新趋势和解决方案优化我们的交易策略。我们的目标是确保成为市场上最可靠、功能最强大的智能交易应用程序之一。",
@@ -135,7 +135,15 @@ return array(
     'data_science_text'=>' 运用适当的统计方法对收集到的大量交易数据进行深入分析。我们致力于汇总、理解和消化这些数据，以最大化发挥数据的潜力和功能',
     'customer_experience'=>'全方位客户体验服务',
     'customer_experience_text'=>'我们致力于协助客户成为更优秀的投资者。我们经验丰富的客户支持团队每周五天全天24/5提供帮助，旨在为您提供持续的支持和协助。',
-    
-     
+   'introduction'=>'介绍',
+     'quick-link'=>'快速链接',
+     'why-weventure'=>'为什么选择维创科技 ',
+     'contact'=>'联系',
+     'insights'=>'见解',
+     'location'=>'位置',
+    'exchange_rate'=>'汇率',
+    'real-time-currency'=>'实时货币兑美元汇率',
+    'news-and-blog'=>'新闻与博客',
+
     )
 ?>

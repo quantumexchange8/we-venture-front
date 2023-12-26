@@ -145,8 +145,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="top-title center">
-                        <h2 class="text-uppercase">Exchange Rates</h2>
-                        <p>Real-time currency exchange rates against USD</p>
+                        <h2 class="text-uppercase">@lang('public.exchange_rate')</h2>
+                        <p>@lang('public.real-time-currency')</p>
                     </div>
                     <div class="table-price">
                         <table id="exchangeTable" data-locale="{{ App::getLocale() }}">
