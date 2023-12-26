@@ -39,7 +39,7 @@
                                     @lang('public.location') : <span class="text-gray-dark">Hong Kong office, China office, Malaysia Office, Thailand office</span>
                                 </li>
                                 <li>
-                                    @lang('public.email'): <span class="text-gray-dark"><!--<a href="mailto:support@clarkwell.co">support@clarkwell.co</a>--><a href="mailto:infocentre.weventure@gmail.com ">infocentre.weventure@gmail.com </a></span>
+                                    @lang('public.email') : <span class="text-gray-dark"><!--<a href="mailto:support@clarkwell.co">support@clarkwell.co</a>--><a href="mailto:infocentre.weventure@gmail.com ">infocentre.weventure@gmail.com </a></span>
                                 </li>
                             </ul>
                         </div><!-- /.widget_contact -->

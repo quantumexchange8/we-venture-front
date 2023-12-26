@@ -90,7 +90,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="top-title center">
-                        <h2 class="text-uppercase">@lang('public.clark_well_strategy_portfolio')</h2>
+                        <h2 class="text-uppercase">@lang('public.strategy_portfolio')</h2>
                         <p>@lang('public.clark_well_strategy_portfolio_caption')</p>
                     </div>
                 </div>
@@ -312,7 +312,7 @@
                                 <div class="testimonials center">
                                     <div class="message">
                                         <blockquote class="whisper">
-                                            Longasia is a multi-licensed broker that operates since 2012. It started with a group of finance enthusiasts, and slowly buildup in the market throughout the years. With the belief of “Success is best when it’s shared”, Long Asia expanded their business to both institutional clients and retail clients globally. Currently, they are holding Canada MSB license, New Zealand FSP license and Australia ASIC license.
+                                        @lang('public.longasia-text')
                                         </blockquote>
                                     </div>
                                     <div class="testimonial-author">
@@ -325,7 +325,7 @@
                                 <div class="testimonials center">
                                     <div class="message">
                                         <blockquote class="whisper">
-                                            Vantage FX is an Australian-based online forex and CFD (Contracts for Difference) broker. Founded in 2009, Vantage FX provides trading services to retail and institutional clients across the globe Vantage FX is regulated by the Australian Securities and Investments Commission (ASIC), which helps ensure the broker's compliance with financial regulations and safeguards the interests of its clients.
+                                            @lang('public.vantage-text')
                                         </blockquote>
                                     </div>
                                     <div class="testimonial-author">
@@ -338,7 +338,7 @@
                                 <div class="testimonials center">
                                     <div class="message">
                                         <blockquote class="whisper">
-                                            Swissquote is a Swiss online banking and financial services provider. It is primarily known for its online trading platform, which allows individuals to trade various financial instruments such as stocks, bonds, options, futures, and foreign exchange. Swissquote was founded in 1996 and is headquartered in Gland, Switzerland. It is regulated by the Swiss Financial Market Supervisory Authority (FINMA) and is listed on the SIX Swiss Exchange, making it a publicly traded company.
+                                            @lang('public.swissquote-text')
                                         </blockquote>
                                     </div>
                                     <div class="testimonial-author">
@@ -351,7 +351,7 @@
                                 <div class="testimonials center">
                                     <div class="message">
                                         <blockquote class="whisper">
-                                            European Credit Investment Bank has been operating as an independent investment bank for over 14 years under the supervision of the Labuan Financial Services Authority (LFSA). ECI Bank specializes in offering financial services, advisory, and wealth management to private clients. They also have expertise in securities and foreign exchange activities. The bank primarily focuses on catering to high-net-worth individuals and families, providing services in the areas of private banking and financial engineering.
+                                            @lang('public.european-text')
                                         </blockquote>
                                     </div>
                                     <div class="testimonial-author">

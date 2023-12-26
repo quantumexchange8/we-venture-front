@@ -83,7 +83,7 @@ return array(
     'portfolio_description-2' => '我们提供多元化的投资选择，涵盖多种资产类别。这使我们能够创建一个全面、平衡的投资组合，帮助您实现长期的财务成功。无论您对股票、债券、房地产还是替代性投资感兴趣，我们的团队都可以帮助您建立一个符合您财务目标的投资组合。',
     'portfolio_description-3' => '在我们的公司，我们把客户放在第一位。我们坚信，基于信任和透明度建立长期的关系是非常重要的。我们花时间倾听您的需求、回答您的问题，并为您提供指导和支持，帮助您做出明智的投资决策。我们的重点是帮助您实现财务目标，我们致力于为您提供一流的客户体验。',
     'clark_well_strategy_portfolio' => '汇佳交易策略',
-    'clark_well_strategy_portfolio_caption' => 'We strive to produce a balanced news feed taking all sides into account',
+    'clark_well_strategy_portfolio_caption' => '我们努力制作平衡的新闻源，考虑到各方',
     'strategy_heading-1' => 'GRAND PACIFIC STRATEGY',
     'strategy_heading-2' => 'MERGE SIGNAL STRATEGY',
     'strategy_heading-3' => 'HIGH FREQUENCY STRATEGY',
@@ -144,6 +144,10 @@ return array(
     'exchange_rate'=>'汇率',
     'real-time-currency'=>'实时货币兑美元汇率',
     'news-and-blog'=>'新闻与博客',
-
-    )
+    'longasia-text'=>'Longasia是一家自2012年开始运营的多牌照经纪商。它由一群金融爱好者开始，多年来在市场上慢慢积累。秉持“分享才是最好的成功”的信念，长亚将业务拓展至全球机构客户和零售客户。目前，他们持有加拿大MSB牌照、新西兰FSP牌照和澳大利亚ASIC牌照。',
+    'vantage-text'=>'Vantage FX 是一家总部位于澳大利亚的在线外汇和 CFD（差价合约）经纪商。 Vantage FX 成立于 2009 年，为全球零售和机构客户提供交易服务。Vantage FX 受澳大利亚证券和投资委员会 (ASIC) 监管，这有助于确保经纪商遵守金融法规并维护客户的利益。',
+   'swissquote-text'=>'Swissquote是一家瑞士在线银行和金融服务提供商。该公司以其在线交易平台而闻名，该平台允许个人交易各种金融工具，如股票、债券、期权、期货和外汇。Swissquote成立于1996年，总部位于瑞士格朗。它受瑞士金融市场监管局（FINMA）监管，并在瑞士第六交易所上市，成为一家上市公司。',
+   'european-text'=>' 欧洲信贷投资银行在纳闽金融服务管理局 (LFSA) 的监管下作为独立投资银行运营了超过 14 年。 ECI 银行专门为私人客户提供金融服务、咨询和财富管理。他们还拥有证券和外汇活动方面的专业知识。该银行主要专注于为高净值个人和家庭提供服务，提供私人银行和金融工程领域的服务。',
+   'strategy_portfolio' => ' 策略组合',
+   )
 ?>
