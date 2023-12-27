@@ -10,12 +10,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-title-heading">
-                            <h1 class="h1-title text-uppercase">{{--@lang('public.product_service')--}} @lang('public.product_information')</h1>
+                            <h1 class="h1-title text-uppercase">{{--@lang('public.product_service')--}} @lang('public.app_scenario')</h1>
                         </div><!-- /.page-title-heading -->
                         <ul class="breadcrumbs">
                             <li><a href="#" title="">@lang('public.home')</a></li>
                             <li class="dot">/</li>
-                            <li> @lang('public.product_information') {{--@lang('public.product_service')--}}</li>
+                            <li> @lang('public.app_scenario') {{--@lang('public.product_service')--}}</li>
                         </ul><!-- /.breadcrumbs -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->

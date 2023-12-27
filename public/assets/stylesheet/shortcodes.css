@@ -837,6 +837,11 @@
 .iconbox.style4 .iconbox-content h4 a:not(:hover) {
     color: #181818;
 }
+.iconbox.style4 .iconbox-content p {
+    text-align: justify;
+  text-justify: inter-word;
+}
+
 
 /* Flat Why Choose
 -------------------------------------------------------------- */

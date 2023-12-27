@@ -15,7 +15,7 @@
                 <!-- SLIDE -->
                 <li data-index="rs-3050" data-transition="slideremovedown" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"    data-rotate="0"  data-saveperformance="off"  data-title="Ken Burns" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="{{ asset('assets/images/page/background.jpg') }}"  alt=""  data-bgposition="center center" data-kenburns="off" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <img src="{{ asset('assets/images/page/worker-01.png') }}"  alt=""  data-bgposition="center center" data-kenburns="off" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 12 -->
@@ -214,9 +214,9 @@
                 </div><!-- /.col-md-6 -->
                 <div class="col-md-6">
                     <div class="wrap-recent-text">
-                        <h2 class="title">@lang('public.about_us')</h2>
+                        <h2 class="title">@lang('public.we_believe')</h2>
                         <div class="content-text">
-                           <p>@lang('public.index_about')</p>
+                           <p>@lang('public.company_profile_description1')</p>
                            
                         </div>
                     </div><!-- /.wrap-recent-text -->
@@ -382,13 +382,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="top-title center">
-                        <h2 class="text-uppercase">@lang('public.product_service')</h2>
-                        <p>@lang('public.product_service_caption')</p>
+                        <h2 class="text-uppercase">@lang('public.app_scenario')</h2>
+                       {{--<p>@lang('public.product_service_caption')</p>--}} 
                     </div>
                 </div>
             </div><!-- /.row -->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="wrap-iconbox">
                         <div class="iconbox inline-left style4">
                             <div class="icon">
@@ -398,8 +398,8 @@
                                 1
                             </div>
                             <div class="iconbox-content">
-                                <h4 class="text-uppercase"><a href="#" title="">@lang('public.fund_management_product')</a></h4>
-                                <p>@lang('public.service_description-1')</p>
+                                <h4 class="text-uppercase"><a href="#" title="">{{--@lang('public.fund_management_product')--}}@lang('public.neurotrade')</a></h4>
+                                <p>{{--@lang('public.service_description-1')--}}@lang('public.neurotrade_description')</p>
                             </div>
                         </div><!-- /.iconbox style4 -->
                         <div class="iconbox inline-left style4">
@@ -410,8 +410,8 @@
                                 2
                             </div>
                             <div class="iconbox-content">
-                                <h4 class="text-uppercase"><a href="#" title="">@lang('public.financial_planning')</a></h4>
-                                <p>@lang('public.service_description-2')</p>
+                                <h4 class="text-uppercase"><a href="#" title="">{{--@lang('public.financial_planning')--}}@lang('public.quantum')</a></h4>
+                                <p>{{--@lang('public.service_description-2')--}}@lang('public.quantum_description')</p>
                             </div>
                         </div><!-- /.iconbox style4 -->
                         <div class="iconbox inline-left style4">
@@ -422,17 +422,17 @@
                                 3
                             </div>
                             <div class="iconbox-content">
-                                <h4 class="text-uppercase"><a href="#" title="">@lang('public.product_service_title-4')</a></h4>
-                                <p>@lang('public.service_description-3')</p>
+                                <h4 class="text-uppercase"><a href="#" title="">{{--@lang('public.product_service_title-4')--}}@lang('public.genius_invest')</a></h4>
+                                <p class="mb-2">{{--@lang('public.service_description-3')--}}@lang('public.genius_invest_description')</p>
                             </div>
                         </div><!-- /.iconbox style4 -->
                     </div><!-- /.wrap-iconbox -->
                 </div><!-- /.col-md-6 -->
-                <div class="col-md-6">
-                    <div class="single-image">
-                        <img src="{{ asset('assets/images/page/testimonial.jpg') }}" alt="">
+             <div class=" col-md-5 ">
+                    <div class="single-image text-center">
+                        <img src="{{ asset('assets/images/page/test-01.png') }}" alt="">
                     </div>
-                </div><!-- /.col-md-6 -->
+             </div>  <!-- /.col-md-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.flat-our-work -->

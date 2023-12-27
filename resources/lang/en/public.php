@@ -25,7 +25,7 @@ return array(
 
     //index
     'introduction' => 'Introduction',
-    'index_heading' => 'Achieve Financial Success with Your Trusted Partner',
+    'index_heading' => 'We Venture , Accompanying The Future',
     'index_heading_caption' => 'Bring you a future you can see and unexpected excitement.',
     'index_about' => "Since 2012, Clark Well Capital has been dedicated to assisting clients in managing their assets and achieving their financial goals. As pioneers in the use of exchange-traded futures and forwards, we have revolutionized portfolio management and generated consistent returns for our investors. We take pride in helping clients start their investment journey with confidence and maintain and increase their portfolio's value over time. With our expert guidance, clients can navigate the complexities of the investment landscape with ease and achieve financial success.",
     'get_started' => 'Get Started',
@@ -153,5 +153,7 @@ return array(
     'swissquote-text'=>'Swissquote is a Swiss online banking and financial services provider. It is primarily known for its online trading platform, which allows individuals to trade various financial instruments such as stocks, bonds, options, futures, and foreign exchange. Swissquote was founded in 1996 and is headquartered in Gland, Switzerland. It is regulated by the Swiss Financial Market Supervisory Authority (FINMA) and is listed on the SIX Swiss Exchange, making it a publicly traded company.',
     'european-text'=>'European Credit Investment Bank has been operating as an independent investment bank for over 14 years under the supervision of the Labuan Financial Services Authority (LFSA). ECI Bank specializes in offering financial services, advisory, and wealth management to private clients. They also have expertise in securities and foreign exchange activities. The bank primarily focuses on catering to high-net-worth individuals and families, providing services in the areas of private banking and financial engineering.',
     'strategy_portfolio' => 'Strategy Portfolio',
-    )
+    'we_believe'=>'We Strongly Believe',
+    'app_scenario'=>'Application Scenario'
+        )
 ?>

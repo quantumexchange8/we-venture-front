@@ -18,7 +18,7 @@ return array(
     'consultant_caption-2' => '或填写联系表格。',
 
     //index
-    'index_heading' => '汇泽万佳，伴通未来',
+    'index_heading' => '维创科技，伴通未来',
     'index_heading_caption' => '带给你看得见的未来和意想不到的刺激。',
     'index_about' => "自2012年以来，汇佳资本一直致力于帮助客户管理资产并实现其财务目标。作为交易所期货和远期合约使用的先驱，我们已经改变了组合管理方式，为投资者产生了稳定的回报。我们以帮助客户自信地开始他们的投资之旅，并随着时间的推移维护和增加他们的投资组合价值而感到自豪。在我们的专业指导下，客户可以轻松地应对投资领域的复杂性并实现财务成功。",
     'get_started' => '开始',
@@ -145,5 +145,7 @@ return array(
     'real-time-currency'=>'实时货币兑美元汇率',
     'news-and-blog'=>'新闻与博客',
   'strategy_portfolio' => ' 策略组合',
+  'we_believe'=>'我们深信',
+  'app_scenario'=>'应用场景',
    )
 ?>
