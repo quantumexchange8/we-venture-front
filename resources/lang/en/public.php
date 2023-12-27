@@ -154,6 +154,6 @@ return array(
     'european-text'=>'European Credit Investment Bank has been operating as an independent investment bank for over 14 years under the supervision of the Labuan Financial Services Authority (LFSA). ECI Bank specializes in offering financial services, advisory, and wealth management to private clients. They also have expertise in securities and foreign exchange activities. The bank primarily focuses on catering to high-net-worth individuals and families, providing services in the areas of private banking and financial engineering.',
     'strategy_portfolio' => 'Strategy Portfolio',
     'we_believe'=>'We Strongly Believe',
-    'app_scenario'=>'Application Scenario'
+    'app_scenario'=>'Application Scenarios',
         )
 ?>
