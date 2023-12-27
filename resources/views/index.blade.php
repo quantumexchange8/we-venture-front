@@ -429,8 +429,8 @@
                     </div><!-- /.wrap-iconbox -->
                 </div><!-- /.col-md-6 -->
              <div class=" col-md-5 ">
-                    <div class="single-image text-center">
-                        <img src="{{ asset('assets/images/page/test-01.png') }}" alt="">
+                    <div class="single-image text-center mt-3">
+                        <img src="{{ asset('assets/images/page/test-01-01.png') }}" alt="">
                     </div>
              </div>  <!-- /.col-md-6 -->
             </div><!-- /.row -->
