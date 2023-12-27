@@ -514,11 +514,11 @@
     var retinaLogos = function() {
       var retina = window.devicePixelRatio > 1 ? true : false;
         if(retina) {
-            $('.logo').find('img').attr({src:'./assets/images/logo-01.png',width:'131',height:'21'});
+            $('.logo').find('img').attr({src:'./assets/images/wv-02-01.svg',width:'131',height:'21'});
         }
 
         if(retina) {
-            $('#logo-ft').find('img').attr({src:'./assets/images/logo-01.png',width:'133',height:'21'});
+            $('#logo-ft').find('img').attr({src:'./assets/images/wv-02-01.svg',width:'133',height:'21'});
         }
     };
 

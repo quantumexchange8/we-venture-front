@@ -973,7 +973,7 @@ ul.box-account li.sign-in:before {
 .btn-menu:before,
 .btn-menu:after,
 .btn-menu span {
-	background-color: #FFA168;
+	background-color: #00052d;
     -webkit-transition: all ease .238s;
        -moz-transition: all ease .238s;
             transition: all ease .238s;
@@ -2328,4 +2328,10 @@ article.main-single .direction .widget_tag_cloud {
             transform: scale(1, 1);
         opacity: 0;
     }
+}
+.logo img {
+    width: 97px;
+    height: 100px;
+    max-width: 100%;
+    height: auto;
 }

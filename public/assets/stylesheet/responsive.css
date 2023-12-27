@@ -147,6 +147,7 @@
 
 	.btn-menu {
 		display: block;
+		color:#00052d;
 	}
 
 	.post-wrap.post-list,
@@ -175,6 +176,7 @@
 
 	.nav-wrap {
 		position: relative;
+	
 	}		
 
 	#mainnav {
