@@ -86,7 +86,7 @@ class PageController extends Controller
             'messages' => $input['message'],
         ), function($message) use ($request){
             $message->from($request->email);
-            $message->to('votingsystem2308@gmail.com', 'Clark Well');
+            $message->to('votingsystem2308@gmail.com', 'We Venture');
         });
 
         return redirect()->back()->with(['success' => trans('public.send_success')]);
