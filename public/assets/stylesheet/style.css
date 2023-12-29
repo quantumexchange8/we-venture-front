@@ -2335,3 +2335,8 @@ article.main-single .direction .widget_tag_cloud {
     max-width: 100%;
     height: auto;
 }
+
+.text-justify{
+	text-align: justify;
+	text-justify: inter-word;
+}

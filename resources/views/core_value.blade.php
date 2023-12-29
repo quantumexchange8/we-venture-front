@@ -9,12 +9,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-title-heading">
-                            <h1 class="h1-title text-uppercase">@lang('public.core_value')</h1>
+                            <h1 class="h1-title text-uppercase">@lang('public.new_era')</h1>
                         </div><!-- /.page-title-heading -->
                         <ul class="breadcrumbs">
                             <li><a href="#" title="">@lang('public.home')</a></li>
                             <li class="dot">/</li>
-                            <li>@lang('public.core_value')</li>
+                            <li>@lang('public.new_era')</li>
                         </ul><!-- /.breadcrumbs -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -28,7 +28,7 @@
                 <div class="col-md-12">
                     <div class="top-title center">
                         <h2>@lang('public.core_value')</h2>
-                        <p>@lang('public.new_era')</p>
+                        <p>@lang('public.new_era_description')</p>
                     </div>
                 </div>
             </div><!-- /.row -->
@@ -42,8 +42,12 @@
                             <img src="{{ asset('assets/images/icon/account.png') }}" alt="">
                         </div>
                         <div class="iconbox-content">
-                            <p>@lang('public.core_value_description-1')</p>
+                          
+                                <h3>@lang('public.dedicated_server')</h3>
+                                <p class="text-justify mt-2">@lang('public.dedicated_server_description')</p>
+                                <p class="text-justify mt-2 mb-4">@lang('public.dedicated_server_description2')</p>
                         </div>
+                    
                     </div><!-- /.iconbox style5 -->
                 </div><!-- /.col-md-5 -->
                 <div class="col-md-6">
@@ -55,7 +59,9 @@
                             <img src="{{ asset('assets/images/icon/payment.png') }}" alt="">
                         </div>
                         <div class="iconbox-content">
-                            <p>@lang('public.core_value_description-2')</p>
+                            <h3>@lang('public.high_frequency')</h3>
+                            <p class="text-justify mt-2 mb-4">@lang('public.high_frequency_description')</p>
+                        
                         </div>
                     </div><!-- /.iconbox style5 -->
                 </div><!-- /.col-md-5 -->
@@ -68,7 +74,9 @@
                             <img src="{{ asset('assets/images/icon/orders.png') }}" alt="">
                         </div>
                         <div class="iconbox-content">
-                            <p>@lang('public.core_value_description-3')</p>
+                            <h3>@lang('public.intelligent_investment')</h3>
+                            <p class="text-justify mt-2">@lang('public.intelligent_investment_description')</p>
+                            <p class="text-justify mt-2 mb-2">@lang('public.intelligent_investment_description2')</p>
                         </div>
                     </div><!-- /.iconbox style5 -->
                 </div><!-- /.col-md-5 -->
@@ -81,7 +89,8 @@
                             <img src="{{ asset('assets/images/icon/orders.png') }}" alt="">
                         </div>
                         <div class="iconbox-content">
-                            <p>@lang('public.core_value_description-4')</p>
+                            <h3>@lang('public.backtesting')</h3>
+                            <p class="text-justify mt-2 mb-2">@lang('public.backtesting_description')</p>
                         </div>
                     </div><!-- /.iconbox style5 -->
                 </div><!-- /.row -->
