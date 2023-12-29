@@ -24,7 +24,7 @@
                                 <a href="{{ route('service') }}" title="">@lang('public.service')</a>
                             </li>
                             <li class="{{ request()->is('insight/*') ? 'active' : '' }}">
-                                <a href="{{ route('core_value') }}" title="">@lang('public.insights')</a>
+                                <a href="{{ route('core_value') }}" title="">@lang('public.app_scenario')</a>
                                 <ul class="sub-menu">
                                     <li class="{{ request()->is('insight/core_value') ? 'active' : '' }}"><a href="{{ route('core_value') }}" title="">@lang('public.core_value')</a></li>
                                     <li class="{{ request()->is('insight/portfolio') ? 'active' : '' }}"><a href="{{ route('portfolio') }}" title="">@lang('public.portfolio')</a></li>

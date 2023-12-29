@@ -25,7 +25,7 @@ return array(
 
     //index
     'introduction' => 'Introduction',
-    'index_heading' => 'We Venture , Accompanying The Future',
+    'index_heading' => 'We Venture',
     'index_heading_caption' => 'Bring you a future you can see and unexpected excitement.',
     'index_about' => "Since 2012, Clark Well Capital has been dedicated to assisting clients in managing their assets and achieving their financial goals. As pioneers in the use of exchange-traded futures and forwards, we have revolutionized portfolio management and generated consistent returns for our investors. We take pride in helping clients start their investment journey with confidence and maintain and increase their portfolio's value over time. With our expert guidance, clients can navigate the complexities of the investment landscape with ease and achieve financial success.",
     'get_started' => 'Get Started',
@@ -155,5 +155,11 @@ return array(
     'strategy_portfolio' => 'Strategy Portfolio',
     'we_believe'=>'We Strongly Believe',
     'app_scenario'=>'Application Scenarios',
-        )
+    'harnessing'=>'Harnessing AI for Smarter Decision-Making ',
+    'harnessing_description'=>'Innovative applications of AI in finance and forex offer investors smarter, personalized trading experiences. AI, through deep learning and data mining, swiftly identifies market trends and risks for more effective decision-making. Financial institutions optimize operations using AI, improving efficiency and cutting costs. This integration drives product innovation, like robo-advisors and blockchain, offering diverse choices. Overall, AI revolutionizes finance, presenting opportunities and challenges for market participants.',
+    'intelligent_AI'=>'Intelligent AI Strategy Products',
+    'new_era'=>'Entering a new era of intelligent analysis',
+
+
+    )
 ?>

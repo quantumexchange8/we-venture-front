@@ -28,7 +28,7 @@
                 <div class="col-md-12">
                     <div class="top-title center">
                         <h2>@lang('public.core_value')</h2>
-                        <p>@lang('public.core_value_caption')</p>
+                        <p>@lang('public.new_era')</p>
                     </div>
                 </div>
             </div><!-- /.row -->

@@ -187,7 +187,7 @@
             <div class="row">
                 <div class="col">
                     <div class="wrap-recent-text style3">
-                        <h2 class="title">@lang('public.introduction')</h2>
+                        <h2 class="title">@lang('public.we_believe')</h2>
                         <div class="content-text text-justify">
                            <!-- <p>Clark Well Capital is a premier asset management group that specializes in proprietary trading. Our team consists of expert from several financial institutions. We leverage our experience, expertise, and cutting-edge trading technologies to deliver exceptional returns with minimized risk. We are dedicated to providing our clients with top-notch investment management services and exceptional returns on their investments.</p>
                             <p style="text-indent: 40px">With over 10 years of experience in private fund management services and proprietary trading, we have a proven track record of success in delivering consistent returns to our clients. Our team of experts has over 20 years of experience in financial quantitative analytics and trading, giving us a deep understanding of the complexities of the financial markets. We leverage our experience and expertise to identify investment opportunities and navigate market fluctuations to maximize returns while minimizing risk.</p>
@@ -214,9 +214,9 @@
                 </div><!-- /.col-md-6 -->
                 <div class="col-md-6">
                     <div class="wrap-recent-text">
-                        <h2 class="title">@lang('public.we_believe')</h2>
+                        <h2 class="title">@lang('public.harnessing')</h2>
                         <div class="content-text">
-                           <p>@lang('public.company_profile_description1')</p>
+                           <p>@lang('public.harnessing_description')</p>
                            
                         </div>
                     </div><!-- /.wrap-recent-text -->
@@ -382,7 +382,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="top-title center">
-                        <h2 class="text-uppercase">@lang('public.app_scenario')</h2>
+                        <h2 class="text-uppercase">@lang('public.intelligent_AI')</h2>
                        {{--<p>@lang('public.product_service_caption')</p>--}} 
                     </div>
                 </div>
