@@ -1180,7 +1180,7 @@ ul.box-account li.sign-in:before {
 }
 
 .widget-about #logo-ft {
-	margin-bottom: 24px;
+	margin-bottom: 10px;
 }
 
 .widget-about .widget-text {
@@ -2339,4 +2339,8 @@ article.main-single .direction .widget_tag_cloud {
 .text-justify{
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+.widget-about #logo-ft {
+	width: 90px;
 }
