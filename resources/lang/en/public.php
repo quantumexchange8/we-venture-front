@@ -171,6 +171,7 @@ return array(
     'intelligent_investment_description2'=>"At We Venture, we strive to create the optimal trading environment. Multiple premium trading platforms are integrated, enabling your trading choices and cross-platform arbitrage. The system supports mirror trading, allowing you to follow successful traders' strategies to enhance your trading performance.",
     'backtesting'=>'Backtesting with Historical Data',
     'backtesting_description'=>'We offer a historical data backtesting feature that employs pre-set strategies to reduce the impact of emotions and intuition on trades. Our system relies on various indicators to discover new trading opportunities, analyze market trends, and provide precise trading suggestions. Through backtesting, you can validate and refine trading strategies to enhance success rates and efficacy. The system automatically executes trades based on your defined strategies, eliminating emotional and intuitive interference, ensuring an objective trading approach.',
-    
+    'address'=>'Address',
+    'id'=>'Registration ID',
     )
 ?>

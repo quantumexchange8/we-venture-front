@@ -392,7 +392,7 @@
                     <div class="wrap-iconbox">
                         <div class="iconbox inline-left style4">
                             <div class="icon">
-                                <img src="{{ asset('assets/images/icon/account-1.png') }}" alt="">
+                                <img src="{{ asset('assets/images/icon/icon1-01.svg') }}" alt="">
                             </div>
                             <div class="number">
                                 1
@@ -404,7 +404,7 @@
                         </div><!-- /.iconbox style4 -->
                         <div class="iconbox inline-left style4">
                             <div class="icon">
-                                <img src="{{ asset('assets/images/icon/orders-1.png') }}" alt="">
+                                <img src="{{ asset('assets/images/icon/icon1-01.svg') }}" alt="">
                             </div>
                             <div class="number">
                                 2
@@ -416,7 +416,7 @@
                         </div><!-- /.iconbox style4 -->
                         <div class="iconbox inline-left style4">
                             <div class="icon">
-                                <img src="{{ asset('assets/images/icon/payment-1.png') }}" alt="">
+                                <img src="{{ asset('assets/images/icon/icon1-01.svg') }}" alt="">
                             </div>
                             <div class="number">
                                 3

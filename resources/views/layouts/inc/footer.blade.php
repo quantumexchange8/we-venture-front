@@ -36,7 +36,10 @@
                             <h3 class="widget-title">@lang('public.contact')</h3>
                             <ul class="contact-list">
                                 <li>
-                                    @lang('public.location') : <span class="text-gray-dark">Hong Kong office, China office, Malaysia Office, Thailand office</span>
+                                    @lang('public.id') : <span class="text-gray-dark">20238349803</span>
+                                </li>
+                                <li>
+                                    @lang('public.address') : <span class="text-gray-dark">6547 N Academy Blvd, Colorado Springs, CO 80918, US</span>
                                 </li>
                                 <li>
                                     @lang('public.email') : <span class="text-gray-dark"><!--<a href="mailto:support@clarkwell.co">support@clarkwell.co</a>--><a href="mailto:infocentre.weventure@gmail.com ">infocentre.weventure@gmail.com </a></span>
@@ -63,7 +66,7 @@
                             <a href="{{ route('service') }}" title="">@lang('public.service')</a>
                         </li>
                         <li>
-                            <a href="{{ route('core_value') }}" title="">@lang('public.insights')</a>
+                            <a href="{{ route('core_value') }}" title="">@lang('public.app_scenario')</a>
                         </li>
                       <li>
                             <a href="{{ route('news') }}" title="">@lang('public.news')</a>
