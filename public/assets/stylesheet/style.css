@@ -2346,7 +2346,8 @@ article.main-single .direction .widget_tag_cloud {
 	text-indent: 40px;
 }
 .widget-about #logo-ft {
-	width: 100px;
+	width: 120px;
+	margin-left:-19px;
 }
 
 .text-end {
