@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="top-title center">
-                        <h2>@lang('public.core_value')</h2>
+                        <h2>@lang('public.topnotch')</h2>
                         <p>@lang('public.new_era_description')</p>
                     </div>
                 </div>

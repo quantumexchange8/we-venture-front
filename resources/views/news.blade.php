@@ -25,7 +25,7 @@
     <section class="main-content ">
         <div class="container">
             <div class="row">
-
+           
                 @foreach ($articles['articles'] as $article)
                     <div class="col-md-6">
                         <article class="main-post two-column">

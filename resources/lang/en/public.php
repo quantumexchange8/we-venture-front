@@ -173,5 +173,7 @@ return array(
     'backtesting_description'=>'We offer a historical data backtesting feature that employs pre-set strategies to reduce the impact of emotions and intuition on trades. Our system relies on various indicators to discover new trading opportunities, analyze market trends, and provide precise trading suggestions. Through backtesting, you can validate and refine trading strategies to enhance success rates and efficacy. The system automatically executes trades based on your defined strategies, eliminating emotional and intuitive interference, ensuring an objective trading approach.',
     'address'=>'Address',
     'id'=>'Registration ID',
+    'topnotch'=>'We Stand As Your Top-notch Selection',
+    'footer_description'=>'The trading of Contracts for Difference (CFDs) carries substantial risk, potentially leading to fluctuations in your investment value. CFDs are complex financial instruments, carrying a high risk of rapid losses due to leverage. Prior to engaging in trading, we strongly advise understanding the operations of CFD products thoroughly and assessing your ability to bear the high risk of financial loss, as well as familiarizing yourself with We Venture risk disclosure statement. Seeking professional advice might be necessary if needed.',
     )
 ?>

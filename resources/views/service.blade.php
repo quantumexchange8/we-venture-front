@@ -113,7 +113,8 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="iconbox inline-left style2 v1 left">
                         <div class="icon">
-                            <i class="fa fa-handshake-o text-white align-middle" style="font-size: 32px"></i>
+                            <img src="{{ asset('assets/images/icon/ai-01.svg') }}" alt="">
+                          <!--  <i class="fa fa-handshake-o text-white align-middle" style="font-size: 32px"></i>-->
                         </div>
                         <div class="iconbox-content">
                             {{--<h4>@lang('public.product_service_title-1')</h4>
@@ -126,7 +127,8 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="iconbox inline-left style2 v1 left">
                         <div class="icon">
-                            <i class="fa fa-money text-white align-middle" style="font-size: 32px"></i>
+                            <img src="{{ asset('assets/images/icon/ai2-01.svg') }}" alt="">
+                           <!-- <i class="fa fa-money text-white align-middle" style="font-size: 32px"></i> -->
                         </div>
                         <div class="iconbox-content">
                             <h4>{{--@lang('public.product_service_title-2')--}}@lang('public.quantum') </h4>
@@ -137,7 +139,8 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="iconbox inline-left style2 v1 left">
                         <div class="icon">
-                            <i class="fa fa-area-chart text-white align-middle" style="font-size: 28px"></i>
+                            <img src="{{ asset('assets/images/icon/ai3-01.svg') }}" alt="">
+                           <!-- <i class="fa fa-area-chart text-white align-middle" style="font-size: 28px"></i> -->
                         </div>
                         <div class="iconbox-content">
                             <h4>{{--@lang('public.product_service_title-3')--}}@lang('public.genius_invest')</h4>

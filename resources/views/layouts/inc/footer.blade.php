@@ -11,7 +11,10 @@
                                         <img src="{{ asset('assets/images/icon/icon3-01.svg') }}" alt="">
                                     </a>
                                 </div>
-                                <p class="text-gray-dark"><!--Clark Well Capital: Expert asset management for exceptional returns and minimized risk.-->@lang('public.we-venture') : @lang('public.cultivating_intelligent_strategies')</p>
+                                <div class="text-gray-dark d-flex flex-column"><!--Clark Well Capital: Expert asset management for exceptional returns and minimized risk.-->
+                                    <div>@lang('public.we-venture') : </div>
+                                    <div>@lang('public.cultivating_intelligent_strategies')</div>
+                                </div>
                             </div>
                         </div><!-- /.widget-about -->
                     </div><!-- /.col-md-4 -->
@@ -21,12 +24,12 @@
                             <ul class="menu-footer one-half">
                                 <li><a href="{{ route('about') }}" title=""><i class="fa fa-angle-double-right"></i> @lang('public.about')</a></li>
                                 <li><a href="{{ route('service') }}" title=""><i class="fa fa-angle-double-right"></i> @lang('public.service')</a></li>
-                                <li><a href="{{ route('core_value') }}" title=""><i class="fa fa-angle-double-right"></i> @lang('public.core_value')</a></li>
+                                <li><a href="{{ route('core_value') }}" title=""><i class="fa fa-angle-double-right"></i> @lang('public.app_scenario')<a><li>
                             </ul><!-- /.one-half -->
-                            <ul class="menu-footer one-half">
+                            <ul class="menu-footer one-three">
                               {{--  <li><a href="{{ route('faqs') }}" title=""><i class="fa fa-angle-double-right"></i> FAQ</a></li>--}}
                                 <li><a href="{{ route('news') }}" title=""><i class="fa fa-angle-double-right"></i>  @lang('public.news')</a></li>
-                                <li><a href="{{ route('portfolio') }}" title=""><i class="fa fa-angle-double-right"></i> @lang('public.portfolio')</a></li>
+                              
                             </ul><!-- /.one-half -->
                             <div class="clearfix"></div>
                         </div><!-- /.widget_nav_menu -->
@@ -34,21 +37,48 @@
                     <div class="col-md-4">
                         <div class="widget widget_contact">
                             <h3 class="widget-title">@lang('public.contact')</h3>
-                            <ul class="contact-list">
-                                <li>
-                                    @lang('public.id') : <span class="text-gray-dark">20238349803</span>
-                                </li>
-                                <li>
-                                    @lang('public.address') : <span class="text-gray-dark">6547 N Academy Blvd, Colorado Springs, CO 80918, US</span>
-                                </li>
-                                <li>
-                                    @lang('public.email') : <span class="text-gray-dark"><!--<a href="mailto:support@clarkwell.co">support@clarkwell.co</a>--><a href="mailto:infocentre.weventure@gmail.com ">infocentre.weventure@gmail.com </a></span>
-                                </li>
-                            </ul>
+                            <div class="d-flex flex-column">
+                                <ul class="contact-list">
+                                    <li>
+                                        <div>
+                                            @lang('public.id') :
+                                        </div>
+                                       <div>
+                                        <span class="text-gray-dark">20238349803</span>
+                                       </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            @lang('public.address') :
+                                        </div>
+                                        <div>
+                                            <span class="text-gray-dark">6547 N Academy Blvd, Colorado Springs, CO 80918, US
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            @lang('public.email') :
+                                        </div>
+                                        <div>
+                                            <span class="text-gray-dark"><!--<a href="mailto:support@clarkwell.co">support@clarkwell.co</a>-->
+                                            <a href="mailto:infocentre.weventure@gmail.com ">infocentre.weventure@gmail.com </a>
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                           
                         </div><!-- /.widget_contact -->
                     </div><!-- /.col-md-4 -->
                 </div><!-- /.footer-widgets -->
-            </div><!-- /.row -->
+            </div><!-- /.row -->  
+          
+            <div class="row mt-3">   
+                <div class="col"> <p class="text-justify text-end footer-sizetext">@lang('public.footer_description')</p></div>  
+                   
+            </div>
+       
         </div><!-- /.container -->
     </div><!-- /.footer -->
     <div class="footer-bottom">

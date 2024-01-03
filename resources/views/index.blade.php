@@ -195,8 +195,8 @@
                             <p style="text-indent: 40px">At Clark Well Capital, we believe that success is built on trust, transparency, and accountability. We are dedicated to building long-lasting relationships with our clients based on these core values. Come join us on this exciting journey to investment success and experience the difference that our expertise and personalized solutions can make for your portfolio.</p>
                            -->
                             <p>@lang('public.intro_text1')</p>
-                            <p style="text-indent: 40px">@lang('public.intro_text2')</p>
-                            <p style="text-indent: 40px">@lang('public.intro_text3')</p>
+                            <p >@lang('public.intro_text2')</p>
+                            <p >@lang('public.intro_text3')</p>
                         </div>
                     </div><!-- /.wrap-recent-text style3 -->
                 </div>
@@ -213,7 +213,7 @@
                     </div>
                 </div><!-- /.col-md-6 -->
                 <div class="col-md-6">
-                    <div class="wrap-recent-text">
+                    <div class="wrap-recent-text text-end">
                         <h2 class="title">@lang('public.harnessing')</h2>
                         <div class="content-text">
                            <p>@lang('public.harnessing_description')</p>
@@ -392,7 +392,7 @@
                     <div class="wrap-iconbox">
                         <div class="iconbox inline-left style4">
                             <div class="icon">
-                                <img src="{{ asset('assets/images/icon/icon1-01.svg') }}" alt="">
+                                <img src="{{ asset('assets/images/icon/ai-01.svg') }}" alt="">
                             </div>
                             <div class="number">
                                 1
@@ -404,7 +404,7 @@
                         </div><!-- /.iconbox style4 -->
                         <div class="iconbox inline-left style4">
                             <div class="icon">
-                                <img src="{{ asset('assets/images/icon/icon1-01.svg') }}" alt="">
+                                <img src="{{ asset('assets/images/icon/ai2-01.svg') }}" alt="">
                             </div>
                             <div class="number">
                                 2
@@ -416,7 +416,7 @@
                         </div><!-- /.iconbox style4 -->
                         <div class="iconbox inline-left style4">
                             <div class="icon">
-                                <img src="{{ asset('assets/images/icon/icon1-01.svg') }}" alt="">
+                                <img src="{{ asset('assets/images/icon/ai3-01.svg') }}" alt="">
                             </div>
                             <div class="number">
                                 3
