@@ -2349,9 +2349,9 @@ article.main-single .direction .widget_tag_cloud {
 	width: 100px;
 }
 
-.text-end p{
+.text-end {
 	text-align: justify;
-	text-justify: inter-word;
+	
 	
 }
 .footer-sizetext{
