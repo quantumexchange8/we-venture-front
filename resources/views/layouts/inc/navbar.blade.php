@@ -4,7 +4,7 @@
             <div class="header-wrap">
                 <div id="logo" class="logo">
                     <a href="{{ route('index') }}" title="">
-                        <img src="{{ asset('assets/images/wv-02-01.svg') }}" alt="logo We Venture" class="logo-img" />
+                        <img src="{{ asset('assets/images/wv-02-02.svg') }}" alt="logo We Venture" class="logo-img" />
                     </a>
                 </div><!-- /#logo -->
 

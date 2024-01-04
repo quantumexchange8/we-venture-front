@@ -8,7 +8,7 @@
                             <div class="widget-text">
                                 <div id="logo-ft">
                                     <a href="{{ route('index') }}" title="">
-                                        <img src="{{ asset('assets/images/icon/ic-01.svg') }}" alt="">
+                                       {{-- <img src="{{ asset('assets/images/icon/ic-01.svg') }}" alt="">--}} <img src="{{ asset('assets/images/wv-02-02.svg') }}" alt="">
                                     </a>
                                 </div>
                                 <div class="text-gray-dark d-flex flex-column"><!--Clark Well Capital: Expert asset management for exceptional returns and minimized risk.-->
