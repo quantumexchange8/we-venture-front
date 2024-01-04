@@ -39,7 +39,7 @@
                             1
                         </div>
                         <div class="icon">
-                            <img src="{{ asset('assets/images/icon/account.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon/acc1-01.svg') }}" alt="">
                         </div>
                         <div class="iconbox-content">
                           
@@ -56,7 +56,7 @@
                             2
                         </div>
                         <div class="icon">
-                            <img src="{{ asset('assets/images/icon/payment.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon/acc2-02.svg') }}" alt="">
                         </div>
                         <div class="iconbox-content">
                             <h3>@lang('public.high_frequency')</h3>
@@ -71,7 +71,7 @@
                             3
                         </div>
                         <div class="icon">
-                            <img src="{{ asset('assets/images/icon/orders.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon/acc3-03.svg') }}" alt="">
                         </div>
                         <div class="iconbox-content">
                             <h3>@lang('public.intelligent_investment')</h3>
@@ -86,7 +86,7 @@
                             4
                         </div>
                         <div class="icon">
-                            <img src="{{ asset('assets/images/icon/orders.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon/acc4-04.svg') }}" alt="">
                         </div>
                         <div class="iconbox-content">
                             <h3>@lang('public.backtesting')</h3>
@@ -117,11 +117,11 @@
                                 <h4 class="mb-2">@lang('public.our_mission')</h4>
                                 <p class="text-list text-left">
                                     @lang('public.our_mission_description-1')
-                                    <br>
+                                    {{-- <br>
                                     @lang('public.our_mission_description-2')
                                     <br>
                                     @lang('public.our_mission_description-3')
-                                    <br>
+                                    <br>--}}
                                 </p>
                             </div>
                         </div>
